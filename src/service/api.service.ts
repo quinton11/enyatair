@@ -10,7 +10,7 @@ import { report } from "../interfaces/incident.interface";
 /*
     Fetches and returns weather of city provided
     using http://api.openweathermap.org api
-    Returns null on bad request
+    Returns error object on bad request
  */
 export const weatherAPI = async (
   city: string,
